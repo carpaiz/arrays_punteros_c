@@ -39,6 +39,13 @@ main(){
 	cout<<"1,0 :"<<matriz[1][0]<<endl;
 	cout<<"1,1 :"<<matriz[1][1]<<endl;
 	cout<<"1,2 :"<<matriz[1][2]<<endl;
+		cout<<"--- For ---"<<endl;
+		for (int i =0;i<2;i++ ){
+		for (int ii =0;ii<3;ii++ ){
+			cout<<i<<","<<ii<<" :"<<matriz[i][ii]<<endl;
+		
+	}	
+	}
 	
 	system("pause");
 }
