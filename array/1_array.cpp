@@ -15,6 +15,11 @@ main(){
 		cout<<codigo[i]<<endl;
 	}
 	
+	cout<<" ---------  for 2 ------------"<<endl;
+	for( int i : codigo) 
+    {
+    	cout<<i<<endl;
+    }
 	
 	cout<<"________ String ________"<<endl;
 	string semana[7]={"Lunes","Martes","Miercoles","Jueves","Viernes","Sabado"};
