@@ -21,6 +21,13 @@ main(){
     	cout<<i<<endl;
     }
 	
+char nombre[30];
+	cout<<"ingrese nombre:";
+	//cin>>nombre;
+	cin.get(nombre,30);
+	
+	cout<<nombre<<endl;
+
 	cout<<"________ String ________"<<endl;
 	string semana[7]={"Lunes","Martes","Miercoles","Jueves","Viernes","Sabado"};
 	
