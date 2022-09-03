@@ -22,6 +22,25 @@ main(){
 	}
 	
 
+cout<<"____________________"<<endl;
+int nota = 0,tam=0,suma=0,promedio = 0;
+	int notas[tam];
+	char s;
+	do{
+		tam++;
+		cout<<"Ingrese la nota "<<tam<<":";
+		cin>>nota;
+		notas[tam-1] = nota;
+		cout<<"Desa Ingresar otra nota (s/n):";
+		cin>>s;
+	}while(s=='s' || s=='S');
+   
+	for (int i=0;i<tam ; i++){
+		cout<<notas[i]<<endl;
+		suma += notas[i];
+	}
+	    promedio = suma / tam;
+	    cout<<"El promedio es:"<<promedio<<endl<<endl;
 	
 	
 	system("pause");
