@@ -28,6 +28,17 @@ char nombre[30];
 	
 	cout<<nombre<<endl;
 
+/*
+	string nombre; 
+	int datos=0;
+	cout<<"Dato :";
+	cin>>datos;
+	cin.ignore();
+	cout<<"Ingrese Nombre Completo:";
+	getline(cin,nombre);
+	cout<<nombre<<endl;
+	*/
+
 	cout<<"________ String ________"<<endl;
 	string semana[7]={"Lunes","Martes","Miercoles","Jueves","Viernes","Sabado"};
 	
